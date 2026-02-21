@@ -1,0 +1,8 @@
+baseURL = 'https://TitaniumCJ.github.io/PortafolioPP/' # Luego pondremos tu usuario de GitHub
+languageCode = 'es-mx'
+title = 'Portafolio de Carlos Mascareño'
+theme = 'ananke'
+
+[params]
+  description = 'Estudiante de Ingeniería en UABC'
+  featured_image = '/images/gopher.png' 
