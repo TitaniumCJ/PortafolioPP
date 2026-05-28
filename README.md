@@ -21,8 +21,3 @@ El repositorio está organizado de manera que el código de desarrollo y el siti
 * **Práctica 2:** Simulador de Estacionamiento aplicando los pilares de la Programación Orientada a Objetos (POO) y el patrón estructural MVC con Flask en Python.
 * **Práctica 3:** Introducción al Paradigmas Funcional mediante la instalación del ecosistema de Haskell con GHCup y el análisis detallado de una aplicación TODO.
 * **Práctica 4:** Resolución declarativa de problemas lógicos, manejo de listas y relaciones complejas empleando Prolog.
-
-## Portafolio en Vivo
-El sitio web se compila de forma automática mediante GitHub Actions cada vez que se suben cambios y se despliega públicamente en el siguiente enlace:
-
-👉 [https://TitaniumCJ.github.io/PortafolioPP/](https://TitaniumCJ.github.io/PortafolioPP/)
