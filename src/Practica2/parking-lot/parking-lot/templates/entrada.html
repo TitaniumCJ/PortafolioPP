@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>registrar entrada</h2>
+<form method="POST">
+    <label>placas</label>
+    <input type="text" name="placa" required>
+    <br>
+    <label>tipo de vehiculo</label>
+    <select name="type">
+        <option value="AUTO">auto</option>
+        <option value="MOTO">moto</option>
+    </select>
+    <br><br>
+    <button type="submit">registrar entrada</button>
+</form>
+{% endblock %}

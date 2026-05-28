@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>estado del estacionamiento</h2>
+
+<h3>lugares</h3>
+<ul>
+    {% for lugar in espacios %}
+    <li>
+        lugar {{ lugar.id_espacio }} - 
+        {% if lugar.ocupado %}
+        ocupado por {{ lugar.vehiculo_actual.placa }}
+        {% else %}
+        libre ({{ lugar.permitido.value }})
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>tickets activos</h3>
+<table border="1">
+    <tr>
+        <th>id</th>
+        <th>placa</th>
+        <th>tipo</th>
+    </tr>
+    {% for id, t in tickets.items() %}
+    <tr>
+        <td>{{ id }}</td>
+        <td>{{ t.vehiculo.placa }}</td>
+        <td>{{ t.vehiculo.tipo.value }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
